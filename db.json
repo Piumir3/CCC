@@ -1,0 +1,126 @@
+{
+ 
+ 
+"summary":[
+{"name":"Sell Out","amount": "1.9M","Description":"Total Sales Amount","status":"up"},
+{"name":"+Achievement %","amount": "49%","Description":"Sell Out/Target","status":"down"},
+{"name":"ASO","amount": "127K","Description":"Achieve Service Outlet","status":"equal"},
+{"name":"VPO","amount": "12M","Description":"Value Per Active Service Outlet","status":"down"},
+{"name":"Sell Out per Distributor","amount": "2M","Description":"Average Sell Out per Distributor","status":"up"}
+],
+
+ "singleBaChartData": {
+ "name": "singleBaChartData-TOTAL REVENUE",
+ "Title": "Sell out by Year",
+ "singleBaChartData": [
+  {"label": "2018","value": "810000","link": "newchart-xml-apple"},        
+  {"label": "2019","value": "620000","link": "newchart-xml-cranberry"},
+  {"label": "2020","value": "350000","link": "newchart-xml-grapes"}],
+  "linkeddata":[{
+            "id": "2018",
+            "linkedchart": {
+                "chart": {
+                    "caption": "Apple Juice - Quarterly Sales",
+                    "subcaption": "Last year",
+                    "numberprefix": "$",
+                    "theme": "fusion",
+                    "rotateValues": "0",
+                    "plottooltext": "$label, $dataValue,  $percentValue"
+                },
+                "data": [{"label": "Q1","value": "157000"},
+                    {"label": "Q2","value": "172000"},
+                    {"label": "Q3","value": "206000"},
+                    {"label": "Q4","value": "275000"}]
+            }
+        },
+        {
+            "id": "2019",
+            "linkedchart": {
+                "chart": {
+                    "caption": "Cranberry Juice - Quarterly Sales",
+                    "subcaption": "Last year",
+                    "numberprefix": "$",
+                    "theme": "fusion",
+                    "plottooltext": "$label, $dataValue,  $percentValue"
+                },
+                "data": [{"label": "Q1","value": "102000"},
+                    {"label": "Q2","value": "142000"},
+                    {"label": "Q3","value": "187000"},
+                    {"label": "Q4","value": "189000"}]
+            }
+        },
+        {
+            "id": "2020",
+            "linkedchart": {
+                "chart": {
+                    "caption": "Grapes Juice - Quarterly Sales",
+                    "subcaption": "Last year",
+                    "numberprefix": "$",
+                    "theme": "fusion",
+                    "rotateValues": "0",
+                    "plottooltext": "$label, $dataValue,  $percentValue"
+                },
+                "data": [
+                    {"label": "Q1","value": "45000"},
+                    {"label": "Q2","value": "72000"},
+                    {"label": "Q3","value": "95000"},
+                    {"label": "Q4","value": "108000"}]
+            }
+        }
+    ]
+ },
+
+ 
+ "pieData": [{ "kind": "Asia", "share": "0.175", "parentID": "" },
+    { "kind": "America", "share": "0.238","parentID": "" },
+    { "kind": "Europe", "share": "0.118","parentID": "" },
+    { "kind": "Africa", "share": "0.052","parentID": "" },
+    { "kind": "SL", "share": "0.225","parentID": "Asia" },
+    { "kind": "India", "share": "0.192","parentID": "Asia" }
+    ],
+
+ 
+ "stackedbarchartdata":{
+ "name": "Sellout By Town",
+ "Title": "Sellout By Town",
+ "categories": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+ "stackedbarchartdata":[{
+    "name": "Colombo",
+    "data": [3.907, 7.943, 7.848, 9.284, 9.263, 9.801, 3.890, 8.238, 9.552, 6.855]
+  }, {
+    "name": "Candy",
+    "data": [4.743, 7.295, 7.175, 6.376, 8.153, 8.535, 5.247, 7.832, 4.3, 4.3]
+  }, {
+    "name": "Avissavella",
+    "data": [0.010, 0.375, 1.161, 0.684, 3.7, 3.269, 1.083, 5.127, 3.690, 2.995]
+  }, {
+    "name": "Peradeniya",
+    "data": [1.988, 2.733, 3.994, 3.464, 4.001, 3.939, 1.333, 2.245, 4.339, 2.727]
+  },
+    {
+    "name": "Galle",
+    "data": [1.988, 2.733, 3.994, 3.464, 4.001, 3.939, 1.333, 2.245, 4.339, 2.727]
+  },
+   {
+    "name": "Matara",
+    "data": [1.988, 2.733, 3.994, 3.464, 4.001, 3.939, 1.333, 2.245, 4.339, 2.727]
+  }]
+  
+ },
+
+ "lineBarData":{
+ "name": "Sell out Trending - 2021",
+ "Title": "Sell out Trending - 2021",
+  "categories": [2002, 2003, 2004, 2005, 2006],
+ "data":[{
+    "name": "2017",
+    "type":"line",
+    "data": [3.907, 5.943, 4.848, 3.284, 5.263]
+  }, {
+    "name": "2018",
+    "type":"bar",
+    "data": [4.743, 7.295, 7.175, 6.376, 8.153]
+  }]
+  
+ }
+}
